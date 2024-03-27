@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Noto+Sans+Thai:wght@300&display=swap');
+
+* {
+    font-size: 100%;
+    /* font-family: 'Lato', sans-serif; */
+    /* color: #000000; */
+    /* 
+    color1 = #FFCC70
+    color2 = #FFFADD
+    color3 = #8ECDDD
+    color4 = #22668D 
+    color5 = #543d00 
+    */
+
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
+    background-color: #FFFADD;
+}
+.navbar-custom {
+    background-color: #FFFADD;
+}
+.nav-link {
+    color: #000;
+}
+a,a:visited {
+    color:#22668D;
+}
+a:hover {
+    color:#FFCC70;
+}
+.item {
+    height: 500px;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
