@@ -58,7 +58,7 @@
         </li>
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="index.php" style="font-size: 22px;">
-            <b><i class="bi bi-house-fill" style='font-size:24px;color:#22668D;'></i></i>หน้าแรก</b>
+            <b>หน้าแรก</b>
           </a>
         </li>
         <!-- <li class="nav-item me-3 me-lg-1">
@@ -68,18 +68,18 @@
         </li> -->
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="loan.php" style="font-size: 22px;">
-            <b><i class="bi bi-cash-coin" style='font-size:24px;color:#22668D;'></i> แบบธรรมเนียมทางการเงิน</b>
+            <b>แบบธรรมเนียมทางการเงิน</b>
           </a>
         </li>
 
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="manual.php" style="font-size: 22px;">
-            <b><i class="bi bi-book-half" style='font-size:24px;color:#22668D;'></i> คู่มือประกอบฎีกา</b>
+            <b>คู่มือประกอบฎีกา</b>
           </a>
         </li>
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="doc-Tracking.php" style="font-size: 22px;">
-            <b><i class="bi bi-calendar-range" style='font-size:24px;color:#22668D;'></i> ติดตามเอกสาร</b>
+            <b>ติดตามเอกสาร</b>
           </a>
         </li>
 
@@ -88,7 +88,7 @@
         ?>
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="user.php" style="font-size: 22px;">
-            <b><i class="bi bi-person-circle" style='font-size:24px;color:#22668D;'></i> ข้อมูลส่วนตัว</b>
+            <b>ข้อมูลส่วนตัว</b>
           </a>
         </li>
         <?php
@@ -134,17 +134,30 @@
         <input type="text" name="dega_ID" class="form-control" placeholder="" require>
       </div>
       <div class="col-md-6">
-        <label class="form-label h4 mt-2">เลขที่เอกสาร</label>
+        <label class="form-label h4 mt-2">เลขที่ฏีกาหน่วย</label>
         <input type="text" name="number_form" class="form-control" require>
       </div>
       <div class="col-md-6">
         <label class="form-label h4 mt-2">รายการ</label>
         <input type="text" name="list_item" class="form-control" require>
       </div>
-      <div class="col-md-3">
-        <label class="form-label h4 mt-2">หน่วยงาน</label>
+      <div class="col-md-6">
+        
+        <label class="form-label h4 mt-2">ยอดเงิน</label>
+        <input type="number" name="total_cost" class="form-control" placeholder="ใส่จำนวนเงิน" require>
+      </div>
+      <input type="hidden" class="hidden" name="type_pay" value="0"></input>
+      <!-- <label class="form-label h4 mt-2">เลือกประเภทค่าใช้จ่าย</label>
+        <select class="form-select" name="type_pay" aria-label="Default select example" require>
+          <option value="0" selected disabled>กรุณาเลือกประเภทค่าใช้จ่าย</option>
+          <option value="1">ค่าใช้จ่ายเดินทางไปราชการ</option>
+          <option value="2">ค่าการศึกษาบุตร</option>
+          <option value="3">ค่ารักษาพยาบาล</option>
+        </select> -->
+      <div class="col-md-6">
+      <label class="form-label h4 mt-2">หน่วยงานเบิกเงิน</label>
         <select class="form-select" name="department" aria-label="Default select example" require>
-          <option selected disabled>กรุณาเลือกหน่วยงาน</option>
+          <option selected disabled>กรุณาเลือกหน่วยเบิกเงิน</option>
           <option value="1">กกพ.ทภ.3</option>
           <option value="2">กขว.ทภ.3</option>
           <option value="3">กยก.ทภ.3</option>
@@ -168,19 +181,6 @@
           <option value="21">ร้อย.บก.ทภ.3</option>
         </select>
       </div>
-      <div class="col-md-3">
-      <label class="form-label h4 mt-2">เลือกประเภทค่าใช้จ่าย</label>
-        <select class="form-select" name="type_pay" aria-label="Default select example" require>
-          <option selected disabled>กรุณาเลือกประเภทค่าใช้จ่าย</option>
-          <option value="1">ค่าใช้จ่ายเดินทางไปราชการ</option>
-          <option value="2">ค่าการศึกษาบุตร</option>
-          <option value="3">ค่ารักษาพยาบาล</option>
-        </select>
-      </div>
-      <div class="col-md-6">
-        <label class="form-label h4 mt-2">ยอดเงิน</label>
-        <input type="text" name="total_cost" class="form-control" placeholder="ไม่ต้องใส่บาท" require>
-      </div>
       <div class="col-md-6">
       <label class="form-label h4 mt-2"></label>
       <button class="btn btn-success mt-3" value="registerDoc" name="registerDoc" style="width:100%;height:50%;"><h4>ส่งข้อมูล</h4></button>
@@ -190,10 +190,10 @@
     <table class="table table-info">
       <thead>
         <tr>
-          <th scope="col">เลขที่ฏีกา</th>
-          <th scope="col">เลขที่เอกสาร</th>
+          <th scope="col">ฏีกา</th>
+          <th scope="col">ฏีกาหน่วย</th>
           <th scope="col">รายการ</th>
-          <th scope="col">ประเภทการจ่าย</th>
+          <th scope="col">ติดตามคำขอเบิกเงิน</th>
           <th scope="col">จำนวนเงิน (บาท)</th>
           <th scope="col">สถานะเอกสาร</th>
         </tr>
@@ -246,7 +246,6 @@
         }
   ?>
   </div>
-  <img src="images/contactUs.png" class="figure-img img-fluid rounded" alt="">
   </div>
   </div>
   </div>

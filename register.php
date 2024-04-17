@@ -58,7 +58,7 @@
         </li>
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="index.php" style="font-size: 22px;">
-            <b><i class="bi bi-house-fill" style='font-size:24px;color:#22668D;'></i></i>หน้าแรก</b>
+            <b>หน้าแรก</b>
           </a>
         </li>
         <!-- <li class="nav-item me-3 me-lg-1">
@@ -68,18 +68,18 @@
         </li> -->
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="loan.php" style="font-size: 22px;">
-            <b><i class="bi bi-cash-coin" style='font-size:24px;color:#22668D;'></i> แบบธรรมเนียมทางการเงิน</b>
+            <b>แบบธรรมเนียมทางการเงิน</b>
           </a>
         </li>
 
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="manual.php" style="font-size: 22px;">
-            <b><i class="bi bi-book-half" style='font-size:24px;color:#22668D;'></i> คู่มือประกอบฎีกา</b>
+            <b>คู่มือประกอบฎีกา</b>
           </a>
         </li>
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="doc-Tracking.php" style="font-size: 22px;">
-            <b><i class="bi bi-calendar-range" style='font-size:24px;color:#22668D;'></i> ติดตามเอกสาร</b>
+            <b>ติดตามเอกสาร</b>
           </a>
         </li>
 
@@ -107,40 +107,40 @@
                     <h3 class="mt-2 text-center text-white">ลงทะเบียน | Register</h3>
                     <div class="row">
                         <div class="col-3">
-                            <select class="form-select mt-2" aria-label="Default select example">
+                            <select name="before-name" class="form-select mt-2" aria-label="Default select example">
                                 <option selected disabled>คำนำหน้า</option>
-                                <option value="1">พล.ท.</option>
-                                <option value="2">พล.ต.</option>
-                                <option value="3">พ.อ.(พ)</option>
-                                <option value="4">พ.อ.</option>
-                                <option value="5">พ.อ.หญิง</option>
-                                <option value="6">พ.ท.</option>
-                                <option value="7">พ.ท.หญิง</option>
-                                <option value="8">พ.ต.</option>
-                                <option value="9">พ.ต.หญิง</option>
-                                <option value="10">ร.อ.</option>
-                                <option value="11">ร.อ.หญิง</option>
-                                <option value="12">ร.ท.</option>
-                                <option value="13">ร.ท.หญิง</option>
-                                <option value="14">ร.ต.</option>
-                                <option value="15">ร.ต.หญิง</option>
-                                <option value="16">จ.ส.อ.(พ)</option>
-                                <option value="17">จ.ส.อ.(พ)หญิง</option>
-                                <option value="18">จ.ส.อ.</option>
-                                <option value="19">จ.ส.อ.หญิง</option>
-                                <option value="20">จ.ส.ท.</option>
-                                <option value="21">จ.ส.ท.หญิง</option>
-                                <option value="22">จ.ส.ต.</option>
-                                <option value="23">จ.ส.ต.หญิง</option>
-                                <option value="24">ส.อ.</option>
-                                <option value="25">ส.อ.หญิง</option>
-                                <option value="26">ส.ท.</option>
-                                <option value="27">ส.ท.หญิง</option>
-                                <option value="28">ส.ต.</option>
-                                <option value="29">ส.ต.หญิง</option>
-                                <option value="30">นาย</option>
-                                <option value="31">นาง</option>
-                                <option value="32">นางสาว</option>
+                                <option value="พล.ท.">พล.ท.</option>
+                                <option value="พล.ต.">พล.ต.</option>
+                                <option value="พ.อ.(พ)">พ.อ.(พ)</option>
+                                <option value="พ.อ.">พ.อ.</option>
+                                <option value="พ.อ.หญิง">พ.อ.หญิง</option>
+                                <option value="พ.ท.">พ.ท.</option>
+                                <option value="พ.ท.หญิง">พ.ท.หญิง</option>
+                                <option value="พ.ต.">พ.ต.</option>
+                                <option value="พ.ต.หญิง">พ.ต.หญิง</option>
+                                <option value="ร.อ.">ร.อ.</option>
+                                <option value="ร.อ.หญิง">ร.อ.หญิง</option>
+                                <option value="ร.ท.">ร.ท.</option>
+                                <option value="ร.ท.หญิง">ร.ท.หญิง</option>
+                                <option value="ร.ต.">ร.ต.</option>
+                                <option value="ร.ต.หญิง">ร.ต.หญิง</option>
+                                <option value="จ.ส.อ.(พ)">จ.ส.อ.(พ)</option>
+                                <option value="จ.ส.อ.(พ)หญิง">จ.ส.อ.(พ)หญิง</option>
+                                <option value="จ.ส.อ.">จ.ส.อ.</option>
+                                <option value="จ.ส.อ.หญิง">จ.ส.อ.หญิง</option>
+                                <option value="จ.ส.ท.">จ.ส.ท.</option>
+                                <option value="จ.ส.ท.หญิง">จ.ส.ท.หญิง</option>
+                                <option value="จ.ส.ต.">จ.ส.ต.</option>
+                                <option value="จ.ส.ต.หญิง">จ.ส.ต.หญิง</option>
+                                <option value="ส.อ.">ส.อ.</option>
+                                <option value="ส.อ.หญิง">ส.อ.หญิง</option>
+                                <option value="ส.ท.">ส.ท.</option>
+                                <option value="ส.ท.หญิง">ส.ท.หญิง</option>
+                                <option value="ส.ต.">ส.ต.</option>
+                                <option value="ส.ต.หญิง">ส.ต.หญิง</option>
+                                <option value="นาย">นาย</option>
+                                <option value="นาง">นาง</option>
+                                <option value="นางสาว">นางสาว</option>
                             </select>
                         </div>
                         <div class="col-9">
@@ -199,7 +199,7 @@
                                 <input type="text" class="form-control mt-2" name="acc_number" placeholder="เลขที่บัญชี">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control mt-2" name="passwordID" placeholder="Password">
+                                <input type="password" class="form-control mt-2" name="passwordID" placeholder="รหัสผ่าน">
                             </div>
                         </div>
                     </div>

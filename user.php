@@ -68,18 +68,18 @@
         </li> -->
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="loan.php" style="font-size: 22px;">
-            <b><i class="bi bi-cash-coin" style='font-size:24px;color:#22668D;'></i> แบบธรรมเนียมทางการเงิน</b>
+            <b>แบบธรรมเนียมทางการเงิน</b>
           </a>
         </li>
 
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="manual.php" style="font-size: 22px;">
-            <b><i class="bi bi-book-half" style='font-size:24px;color:#22668D;'></i> คู่มือประกอบฎีกา</b>
+            <b>คู่มือประกอบฎีกา</b>
           </a>
         </li>
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="doc-Tracking.php" style="font-size: 22px;">
-            <b><i class="bi bi-calendar-range" style='font-size:24px;color:#22668D;'></i> ติดตามเอกสาร</b>
+            <b>ติดตามเอกสาร</b>
           </a>
         </li>
 
@@ -88,7 +88,7 @@
         ?>
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="user.php" style="font-size: 22px;">
-            <b><i class="bi bi-person-circle" style='font-size:24px;color:#22668D;'></i> ข้อมูลส่วนตัว</b>
+            <b>ข้อมูลส่วนตัว</b>
           </a>
         </li>
         <?php
@@ -119,7 +119,7 @@
 
         <div class="card mb-2" style="width: 36rem;">
           <div class="card-body">
-            <h5 class="card-title"><h2 style="text-align:center;">ข้อมูลผู้ใช้</h2>
+            <h5 class="card-title"><h2 style="text-align:center;">ข้อมูลผู้ใช้งาน</h2>
             <p class="card-text">
             <?php
                               $sql_read = "SELECT * FROM user_admin WHERE id = :id";
@@ -142,6 +142,11 @@
               ?>
             </p>
             <a href="edit.php" class="card-link" >แก้ไขข้อมูลส่วนตัว</a>
+            <a 
+              href="process.php?Logout=Logout" 
+              name="Logout" value="Logout"style="margin-left: 45%;"
+            >
+             ออกจากระบบ | Logout</i></a>
           </div>
         </div>
       </div>

@@ -58,7 +58,7 @@
         </li>
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="index.php" style="font-size: 22px;">
-            <b><i class="bi bi-house-fill" style='font-size:24px;color:#22668D;'></i></i>หน้าแรก</b>
+            <b>หน้าแรก</b>
           </a>
         </li>
         <!-- <li class="nav-item me-3 me-lg-1">
@@ -68,18 +68,18 @@
         </li> -->
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="loan.php" style="font-size: 22px;">
-            <b><i class="bi bi-cash-coin" style='font-size:24px;color:#22668D;'></i> แบบธรรมเนียมทางการเงิน</b>
+            <b>แบบธรรมเนียมทางการเงิน</b>
           </a>
         </li>
 
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="manual.php" style="font-size: 22px;">
-            <b><i class="bi bi-book-half" style='font-size:24px;color:#22668D;'></i> คู่มือประกอบฎีกา</b>
+            <b>คู่มือประกอบฎีกา</b>
           </a>
         </li>
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="doc-Tracking.php" style="font-size: 22px;">
-            <b><i class="bi bi-calendar-range" style='font-size:24px;color:#22668D;'></i> ติดตามเอกสาร</b>
+            <b> ติดตามเอกสาร</b>
           </a>
         </li>
 
@@ -88,7 +88,7 @@
         ?>
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="user.php" style="font-size: 22px;">
-            <b><i class="bi bi-person-circle" style='font-size:24px;color:#22668D;'></i> ข้อมูลส่วนตัว</b>
+            <b>ข้อมูลส่วนตัว</b>
           </a>
         </li>
         <?php
@@ -106,14 +106,13 @@
           <i class="bi bi-filetype-pdf"></i>
             <h3><b style="color: #fff;">แบบธรรมเนียมทางการเงิน</b></h3> <br>
             <!-- <p style="color: #fff;"><a href="Manual/1.KTB.pdf"><img src="icon/filetype-pdf.svg"></a> แบบแจ้งข้อมูลการรับเงินโอนผ่านระบบ KTB Coporate Online</p> -->
+            <p style="color: #fff;"><a href="Manual/1.KTB_2.pdf"><img src="icon/filetype-pdf.svg"></a> แบบแจ้งข้อมูลการรับเงินโอนผ่านระบบ KTB Coporate Online</p>
             <p style="color: #fff;"><a href="Manual/2.welfare house.pdf"><img src="icon/filetype-pdf.svg"></a> แบบขอเบิกเงินค่าเช่าบ้าน(แบบ 6006)</p>
             <p style="color: #fff;"><a href="Manual/3.welfare fund.pdf"><img src="icon/filetype-pdf.svg"></a> ใบเบิกสวัสดิการเกี่ยวกับการศึกษาบุตร</p>
             <p style="color: #fff;"><a href="Manual/4.welfare medicine.pdf"><img src="icon/filetype-pdf.svg"></a> ใบเบิกเงินสวัสดิการเกี่ยวกับการรักษาพยาบาล</p>
-            <p style="color: #fff;"><a href="Manual/1.KTB_2.pdf"><img src="icon/filetype-pdf.svg"></a> แบบแจ้งข้อมูลการรับเงินโอนผ่านระบบ KTB Coporate Online</p>
       </div>
     </div>
   </div>
-        <img src="images/contactUs.png" class="figure-img img-fluid rounded" alt="">
   </div>
   </div>
   </div>

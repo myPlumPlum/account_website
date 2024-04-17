@@ -58,7 +58,7 @@
         </li>
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="index.php" style="font-size: 22px;">
-            <b><i class="bi bi-house-fill" style='font-size:24px;color:#22668D;'></i></i>หน้าแรก</b>
+            <b>หน้าแรก</b>
           </a>
         </li>
         <!-- <li class="nav-item me-3 me-lg-1">
@@ -68,18 +68,18 @@
         </li> -->
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="loan.php" style="font-size: 22px;">
-            <b><i class="bi bi-cash-coin" style='font-size:24px;color:#22668D;'></i> แบบธรรมเนียมทางการเงิน</b>
+            <b>แบบธรรมเนียมทางการเงิน</b>
           </a>
         </li>
 
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="manual.php" style="font-size: 22px;">
-            <b><i class="bi bi-book-half" style='font-size:24px;color:#22668D;'></i> คู่มือประกอบฎีกา</b>
+            <b>คู่มือประกอบฎีกา</b>
           </a>
         </li>
         <li class="nav-item me-3 me-lg-1">
           <a class="nav-link mx-4" href="doc-Tracking.php" style="font-size: 22px;">
-            <b><i class="bi bi-calendar-range" style='font-size:24px;color:#22668D;'></i> ติดตามเอกสาร</b>
+            <b>ติดตามเอกสาร</b>
           </a>
         </li>
 
@@ -165,6 +165,8 @@
           </button>
         </div>
       </div>
+
+      <img src="images/contactUs.png" class="img-fluid rounded" alt="">
     </div>
     <!-- section 2 3 picture-->
     <!-- <div class="row">
@@ -200,9 +202,9 @@
         </div>
       </div>
     </div> -->
+<footer>© ส.อ.หญิงสรรฉัตร วงศ์ธนะบูรณ์</footer>
   </div>
 </div>
-<img src="images/contactUs.png" class="img-fluid rounded" alt="">
 </div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

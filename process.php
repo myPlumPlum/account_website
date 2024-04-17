@@ -48,7 +48,8 @@ if(isset($_GET['register'])){
 
     $userID = $_GET["userID"];
     $passwordID = $_GET["passwordID"];
-    $FullyName = $_GET["FullyName"];
+    $beforename = $_GET["before-name"];
+    $FullyName = $_GET["before-name"]. " " .$_GET["FullyName"];
     $bank_name = $_GET["bank_name"];
     $acc_number = $_GET["acc_number"];
     $role_user = 1;
